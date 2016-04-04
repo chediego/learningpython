@@ -35,8 +35,9 @@ for i in range(x):
 
 i = 0
 for i in range(x):
-    print("Es tu turno ")
+    print("\n\nEs tu turno ")
     print(player[i].nombre)
     for a in range(3):
         ejercicio(i)
     print(player[i].nombre + " obtiene " + str(player[i].puntos) + "ptos\n")
+    print("correctas: " + str(player[i].correctas) + " incorrectas: " + str(player[i].incorrectas) )
